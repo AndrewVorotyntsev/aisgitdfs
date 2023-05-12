@@ -1,4 +1,4 @@
-# Поиск в глубину
+# Алгоритм поиск в глубину
 def dfs(graph, a, b, path=[], visited=[], current=None):
     # Обработка исключения
     if (isinstance(x, int) and isinstance(x, int)):
