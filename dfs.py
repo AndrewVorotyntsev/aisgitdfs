@@ -1,4 +1,6 @@
 def dfs(graph, a, b, path=[], visited=[], current=None):
+    if (isinstance(x, int) and isinstance(x, int)):
+        return "Error format"
     if (current is None):
         current = a
     if ((current in visited) is False):
