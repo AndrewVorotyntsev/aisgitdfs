@@ -1,4 +1,4 @@
-# Algorythm
+# Алгоритм поиск в глубину
 def dfs(graph, a, b, path=[], visited=[], current=None):
     # Обработка исключения
     if (isinstance(x, int) and isinstance(x, int)):
@@ -9,7 +9,7 @@ def dfs(graph, a, b, path=[], visited=[], current=None):
     # Если не посещали текущую вершину добавляем
     if ((current in visited) is False):
         visited.append(current)
-    # Итерация
+    # Проходим по всем вершинам
     for x in graph:
         if (x[0] == current):
             if ((x[1] in visited) is False) :
