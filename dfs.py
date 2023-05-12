@@ -1,8 +1,11 @@
 def dfs(graph, a, b, path=[], visited=[], current=None):
+    # Обработка исключения
     if (isinstance(x, int) and isinstance(x, int)):
         return "Error format"
+    # Текущая вершина
     if (current is None):
         current = a
+    # Если не посещали текущую вершину добавляем
     if ((current in visited) is False):
         visited.append(current)
     for x in graph:
